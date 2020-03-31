@@ -72,7 +72,10 @@ And("I click {string} twice") do |string|
 end
 
 Then("I should see two names prepended to the list") do
-
+ page.has_css?("img[src*='https://www.myrapname.com/images/tweet-button.jpg']")
+ page.has_css?("img[src*='https://www.myrapname.com/images/tweet-button.jpg']")
+ page.has_css?("img[src*='https://www.myrapname.com/images/tweet-button.jpg']")
 end
+
 
 
